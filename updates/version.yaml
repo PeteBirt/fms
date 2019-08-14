@@ -159,3 +159,18 @@
 1.0.54:
     - 'Updated table skippy_fms_sim_dept'
     - builder_table_update_skippy_fms_sim_dept_4.php
+1.0.55:
+    - 'Updated table skippy_fms_fleets'
+    - builder_table_update_skippy_fms_fleets_11.php
+1.0.56:
+    - 'Updated table skippy_fms_fleets'
+    - builder_table_update_skippy_fms_fleets_12.php
+1.0.57:
+    - 'Updated table skippy_fms_fleets'
+    - builder_table_update_skippy_fms_fleets_13.php
+1.0.58:
+    - 'Updated table skippy_fms_sims'
+    - builder_table_update_skippy_fms_sims_12.php
+1.0.59:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_5.php

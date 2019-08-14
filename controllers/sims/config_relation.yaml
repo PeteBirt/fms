@@ -3,5 +3,13 @@ departments:
     manage:
         form: $/skippy/fms/models/department/fields.yaml
         list: $/skippy/fms/models/department/columns.yaml
+        showSearch: true
+        filter:
+            scopes:
+                genre_id:
+                    label: Genre
+                    modelClass: Skippy\Fms\Models\Genre
+                    conditions: genre_id in (:filtered)
+                    nameFrom: genre_name
     view:
         list: $/skippy/fms/models/department/columns.yaml

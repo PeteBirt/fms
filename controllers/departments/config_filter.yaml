@@ -1,0 +1,6 @@
+scopes:
+    genre_id:
+        label: Genre
+        modelClass: Skippy\Fms\Models\Genre
+        conditions: genre_id in (:filtered)
+        nameFrom: genre_name
