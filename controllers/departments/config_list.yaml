@@ -1,0 +1,12 @@
+list: $/skippy/fms/models/department/columns.yaml
+modelClass: Skippy\Fms\Models\Department
+title: Departments
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'skippy/fms/departments/update/:id'

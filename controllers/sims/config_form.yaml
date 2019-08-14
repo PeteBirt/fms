@@ -1,0 +1,10 @@
+name: Sims
+form: $/skippy/fms/models/sim/fields.yaml
+modelClass: Skippy\Fms\Models\Sim
+defaultRedirect: skippy/fms/sims
+create:
+    redirect: 'skippy/fms/sims/update/:id'
+    redirectClose: skippy/fms/sims
+update:
+    redirect: skippy/fms/sims
+    redirectClose: skippy/fms/sims

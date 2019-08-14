@@ -1,0 +1,5 @@
+title: Fleets
+modelClass: Skippy\Fms\Models\Fleet
+nameFrom: id
+toolbar:
+    buttons: reorder_toolbar

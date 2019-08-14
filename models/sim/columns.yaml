@@ -1,0 +1,24 @@
+columns:
+    id:
+        label: 'Sim ID'
+        type: number
+        invisible: true
+    sim_name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    sim_registry:
+        label: Registry
+        type: text
+    fleet_id:
+        label: 'Assigned Fleet'
+        type: text
+        select: fleet_name
+        relation: fleet
+    sim_banner:
+        label: Banner
+        type: text
+    department_id:
+        label: Department
+        type: text

@@ -1,0 +1,7 @@
+departments:
+    label: Department
+    manage:
+        form: $/skippy/fms/models/department/fields.yaml
+        list: $/skippy/fms/models/department/columns.yaml
+    view:
+        list: $/skippy/fms/models/department/columns.yaml

@@ -1,0 +1,6 @@
+columns:
+    dept_name:
+        label: 'Department Name'
+        type: text
+        searchable: true
+        sortable: true

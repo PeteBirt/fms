@@ -1,0 +1,10 @@
+name: Fleets
+form: $/skippy/fms/models/fleet/fields.yaml
+modelClass: Skippy\Fms\Models\Fleet
+defaultRedirect: skippy/fms/fleets
+create:
+    redirect: 'skippy/fms/fleets/update/:id'
+    redirectClose: skippy/fms/fleets
+update:
+    redirect: skippy/fms/fleets
+    redirectClose: skippy/fms/fleets

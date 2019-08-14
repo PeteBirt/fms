@@ -1,0 +1,11 @@
+fields:
+    dept_name:
+        label: 'Department Name'
+        span: auto
+        type: text
+    genre:
+        label: Genre
+        span: auto
+        nameFrom: genre_name
+        descriptionFrom: description
+        type: relation

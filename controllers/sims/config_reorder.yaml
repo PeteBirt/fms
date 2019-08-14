@@ -1,0 +1,4 @@
+title: Sims
+modelClass: Skippy\Fms\Models\Sim
+toolbar:
+    buttons: reorder_toolbar

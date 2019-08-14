@@ -1,0 +1,4 @@
+title: Genre
+modelClass: Skippy\Fms\Models\Department
+toolbar:
+    buttons: reorder_toolbar

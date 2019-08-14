@@ -1,0 +1,10 @@
+name: Operations
+form: $/skippy/fms/models/operations/fields.yaml
+modelClass: Skippy\Fms\Models\Operations
+defaultRedirect: skippy/fms/operations
+create:
+    redirect: 'skippy/fms/operations/update/:id'
+    redirectClose: skippy/fms/operations
+update:
+    redirect: skippy/fms/operations
+    redirectClose: skippy/fms/operations

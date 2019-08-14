@@ -1,0 +1,38 @@
+tabs:
+    fields:
+        fleet_name:
+            label: 'Fleet Name'
+            span: auto
+            required: 1
+            type: text
+            tab: 'Basic Info'
+        slug:
+            label: Slug
+            span: auto
+            preset:
+                field: fleet_name
+                type: slug
+            type: text
+            tab: 'Basic Info'
+        fleet_description:
+            label: 'Fleet Information'
+            size: large
+            span: full
+            type: richeditor
+            tab: 'Basic Info'
+        fleet_type:
+            label: Type
+            options:
+                Fleet: Fleet
+                Taskforce: Taskforce
+                Taskgroup: Taskgroup
+            span: auto
+            required: 1
+            type: dropdown
+            tab: 'Basic Info'
+        fleet_img:
+            label: 'Fleet Logo'
+            span: auto
+            mode: image
+            type: mediafinder
+            tab: 'Basic Info'

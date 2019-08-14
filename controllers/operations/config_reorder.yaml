@@ -1,0 +1,4 @@
+title: Operations
+modelClass: Skippy\Fms\Models\Operations
+toolbar:
+    buttons: reorder_toolbar

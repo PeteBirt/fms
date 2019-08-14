@@ -1,0 +1,11 @@
+name: Genre
+modelClass: Skippy\Fms\Models\Genre
+form: $/skippy/fms/models/genre/fields.yaml
+defaultRedirect: skippy/fms/genre
+create:
+    redirect: 'skippy/fms/genre/update/:id'
+    redirectClose: skippy/fms/genre
+update:
+    redirect: skippy/fms/genre
+    redirectClose: skippy/fms/genre
+preview: {  }

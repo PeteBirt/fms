@@ -1,0 +1,12 @@
+columns:
+    ops_logo:
+        label: Logo
+        type: text
+    ops_name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    ops_info:
+        label: Info
+        type: text

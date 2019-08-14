@@ -1,0 +1,15 @@
+fields:
+    ops_name:
+        label: 'Staff Department Name'
+        span: auto
+        type: text
+    ops_logo:
+        label: Logo
+        mode: image
+        span: auto
+        type: mediafinder
+    ops_info:
+        label: 'Staff Department Information'
+        size: large
+        span: full
+        type: richeditor

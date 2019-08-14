@@ -1,0 +1,36 @@
+plugin:
+    name: 'skippy.fms::lang.plugin.name'
+    description: 'skippy.fms::lang.plugin.description'
+    author: Skippy
+    icon: oc-icon-gears
+    homepage: ''
+navigation:
+    fms:
+        label: FMS
+        url: skippy/fms/operations
+        icon: icon-ship
+        sideMenu:
+            ops:
+                label: Operations
+                url: skippy/fms/operations
+                icon: icon-sitemap
+            fleet:
+                label: Fleets
+                url: skippy/fms/fleets
+                icon: icon-sitemap
+            sims:
+                label: Simulations
+                url: skippy/fms/sims
+                icon: icon-sitemap
+            sim-dept:
+                label: 'Sim Departments'
+                url: skippy/fms/departments
+                icon: icon-sitemap
+            genre:
+                label: Genre
+                url: skippy/fms/genre
+                icon: icon-sitemap
+permissions:
+    'Sim Command':
+        tab: 'skippy.fms::lang.plugin.name'
+        label: 'Command Teams'

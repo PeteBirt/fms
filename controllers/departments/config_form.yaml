@@ -1,0 +1,10 @@
+name: Departments
+form: $/skippy/fms/models/department/fields.yaml
+modelClass: Skippy\Fms\Models\Department
+defaultRedirect: skippy/fms/departments
+create:
+    redirect: 'skippy/fms/departments/update/:id'
+    redirectClose: skippy/fms/departments
+update:
+    redirect: skippy/fms/departments
+    redirectClose: skippy/fms/departments

@@ -1,0 +1,58 @@
+fields:
+    sim_name:
+        label: 'Simulation Name'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: sim_name
+            type: slug
+        type: text
+    sim_registry:
+        label: 'Registry Number'
+        span: auto
+        type: text
+    sim_url:
+        label: 'Website Url'
+        span: auto
+        type: text
+    fleet:
+        label: 'Assigned Fleet'
+        nameFrom: fleet_name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    genre:
+        label: Genre
+        nameFrom: genre_name
+        descriptionFrom: description
+        span: auto
+        required: 1
+        type: relation
+    sim_role:
+        label: Role
+        span: auto
+        type: text
+    sim_class:
+        label: Class
+        span: auto
+        type: text
+    departments:
+            label: Departments
+            type: partial
+tabs:
+    fields:
+        sim_banner:
+            label: Banner
+            mode: image
+            span: auto
+            type: mediafinder
+            tab: Information
+        sim_description:
+            label: 'Simulation Information'
+            size: large
+            span: right
+            type: richeditor
+            tab: Information

@@ -1,0 +1,5 @@
+fields:
+    genre_name:
+        label: 'Genre Name'
+        span: auto
+        type: text

@@ -1,0 +1,4 @@
+columns:
+    genre_name:
+        label: 'Genre Name'
+        type: text
