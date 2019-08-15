@@ -5,19 +5,19 @@ use October\Rain\Database\Updates\Migration;
 
 class BuilderTableUpdateSkippyFmsSims8 extends Migration
 {
-    public function up()
-    {
-        Schema::table('skippy_fms_sims', function($table)
-        {
-            $table->integer('sim_banner');
-        });
-    }
-    
-    public function down()
-    {
-        Schema::table('skippy_fms_sims', function($table)
-        {
-            $table->dropColumn('sim_banner');
-        });
+    public function up()
+    {
+        Schema::table('skippy_fms_sims', function($table)
+        {
+            $table->integer('sim_banner');
+        });
+    }
+    
+    public function down()
+    {
+        Schema::table('skippy_fms_sims', function($table)
+        {
+            $table->dropColumn('sim_banner');
+        });
     }
 }

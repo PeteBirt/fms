@@ -1,5 +1,6 @@
 departments:
     label: Department
+    tabs: Manifest
     manage:
         form: $/skippy/fms/models/department/fields.yaml
         list: $/skippy/fms/models/department/columns.yaml

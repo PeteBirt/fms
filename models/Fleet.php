@@ -26,7 +26,18 @@ class Fleet extends Model
      */
     public $rules = [
     ];
+    public $belongsTo =[
 
+      'division' =>[
+
+        'Skippy\Fms\Models\Division',
+
+        'table' => 'skippy_fms_div_fleet',
+
+        'order' => 'div_name'
+
+      ],
+    ];
     public $hasMany = [
     'sims' => 'Skippy\Fms\Models\Sim'
 ];

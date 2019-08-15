@@ -1,17 +1,14 @@
 columns:
-    id:
-        label: 'Fleet ID'
-        type: number
-        invisible: false
     fleet_name:
         label: Name
         type: text
         searchable: true
         sortable: true
-    fleet_description:
-        label: 'skippy.fms::lang.plugin.description'
-        type: text
     fleet_type:
         label: 'Fleet Type'
+        type: text
+        sortable: true
+    division_name:
+        label: Division
         type: text
         sortable: true

@@ -1,0 +1,10 @@
+fields:
+    div_name:
+        label: 'Division Name'
+        span: auto
+        type: text
+    div_logo:
+        label: Logo
+        span: auto
+        mode: image
+        type: mediafinder

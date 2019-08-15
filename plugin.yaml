@@ -14,6 +14,10 @@ navigation:
                 label: Operations
                 url: skippy/fms/operations
                 icon: icon-sitemap
+            div:
+                label: Divisions
+                url: skippy/fms/divisions
+                icon: icon-sitemap
             fleet:
                 label: Fleets
                 url: skippy/fms/fleets
@@ -21,10 +25,6 @@ navigation:
             sims:
                 label: Simulations
                 url: skippy/fms/sims
-                icon: icon-sitemap
-            sim-dept:
-                label: 'Sim Departments'
-                url: skippy/fms/departments
                 icon: icon-sitemap
             genre:
                 label: Genre

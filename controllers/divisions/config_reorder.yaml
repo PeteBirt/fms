@@ -1,0 +1,4 @@
+title: Divisions
+modelClass: Skippy\Fms\Models\Division
+toolbar:
+    buttons: reorder_toolbar

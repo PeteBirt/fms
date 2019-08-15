@@ -5,19 +5,19 @@ use October\Rain\Database\Updates\Migration;
 
 class BuilderTableUpdateSkippyFmsSims6 extends Migration
 {
-    public function up()
-    {
-        Schema::table('skippy_fms_sims', function($table)
-        {
-            $table->string('slug');
-        });
-    }
-    
-    public function down()
-    {
-        Schema::table('skippy_fms_sims', function($table)
-        {
-            $table->dropColumn('slug');
-        });
+    public function up()
+    {
+        Schema::table('skippy_fms_sims', function($table)
+        {
+            $table->string('slug');
+        });
+    }
+    
+    public function down()
+    {
+        Schema::table('skippy_fms_sims', function($table)
+        {
+            $table->dropColumn('slug');
+        });
     }
 }

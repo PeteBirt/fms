@@ -1,0 +1,6 @@
+columns:
+    div_name:
+        label: 'Division Name'
+        type: text
+        searchable: true
+        sortable: true

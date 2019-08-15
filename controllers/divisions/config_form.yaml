@@ -1,0 +1,10 @@
+name: Divisions
+form: $/skippy/fms/models/division/fields.yaml
+modelClass: Skippy\Fms\Models\Division
+defaultRedirect: skippy/fms/divisions
+create:
+    redirect: 'skippy/fms/divisions/update/:id'
+    redirectClose: skippy/fms/divisions
+update:
+    redirect: skippy/fms/divisions
+    redirectClose: skippy/fms/divisions

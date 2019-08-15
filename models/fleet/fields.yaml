@@ -22,6 +22,7 @@ tabs:
             tab: 'Basic Info'
         fleet_type:
             label: Type
+            placeholder: Select
             options:
                 Fleet: Fleet
                 Taskforce: Taskforce
@@ -35,4 +36,12 @@ tabs:
             span: auto
             mode: image
             type: mediafinder
+            tab: 'Basic Info'
+        division:
+            label: Division
+            span: auto
+            nameFrom: div_name
+            placeholder: Select
+            descriptionFrom: description
+            type: relation
             tab: 'Basic Info'
