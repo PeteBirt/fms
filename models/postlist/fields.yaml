@@ -1,0 +1,14 @@
+fields:
+    posts:
+        label: Position
+        span: auto
+        nameFrom: post_name
+        descriptionFrom: description
+        list: $/skippy/fms/models/posts/columns.yaml
+        type: recordfinder
+    sim:
+        label: Sim
+        span: auto
+        nameFrom: sim_name
+        descriptionFrom: description
+        type: relation

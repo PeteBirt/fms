@@ -1,0 +1,14 @@
+columns:
+    posts_id:
+        label: 'Post ID'
+        type: number
+        sortable: true
+    sim_id:
+        label: 'Sim ID'
+        type: number
+    department:
+        label: 'Dept ID'
+        type: number
+    genre:
+        label: 'Genre ID'
+        type: number

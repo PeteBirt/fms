@@ -1,0 +1,13 @@
+<div id="postList">
+    <?= $this->makePartial('post_list', ['posts' => $model->posts]) ?>
+</div>
+<p>
+    <a
+        href="javascript:;"
+        class="btn btn-secondary oc-icon-plus"
+        data-control="popup"
+        data-handler="onLoadCreatePostForm"
+        data-size="large">
+        Add Position
+    </a>
+</p>

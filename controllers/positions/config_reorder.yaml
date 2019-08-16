@@ -1,0 +1,4 @@
+title: Positions
+modelClass: Skippy\Fms\Models\Posts
+toolbar:
+    buttons: reorder_toolbar

@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class Division extends Model
+class Posts extends Model
 {
     use \October\Rain\Database\Traits\Validation;
 
@@ -19,14 +19,21 @@ class Division extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'skippy_fms_divisions';
+    public $table = 'skippy_fms_posts';
+
+    public $belongsTo =[
+
+      'department' =>[
+        'Skippy\Fms\Models\Department',
+        'table' => 'skippy_fms_sim_dept',
+        'order' => 'dept_name'
+
+      ]
+    ];
 
     /**
      * @var array Validation rules
      */
     public $rules = [
     ];
-    public $hasMany = [
-    'fleets' => 'Skippy\Fms\Models\Fleet'
-];
 }

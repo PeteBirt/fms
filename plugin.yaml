@@ -30,6 +30,14 @@ navigation:
                 label: Genre
                 url: skippy/fms/genre
                 icon: icon-sitemap
+            posts:
+                label: Positions
+                url: skippy/fms/positions
+                icon: icon-sitemap
+            postlist:
+                label: 'Post List'
+                url: skippy/fms/postlist
+                icon: icon-sitemap
 permissions:
     'Sim Command':
         tab: 'skippy.fms::lang.plugin.name'

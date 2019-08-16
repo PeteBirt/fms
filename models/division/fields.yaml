@@ -3,8 +3,24 @@ fields:
         label: 'Division Name'
         span: auto
         type: text
-    div_logo:
-        label: Logo
+    slug:
+        label: Slug
         span: auto
-        mode: image
-        type: mediafinder
+        preset:
+            field: div_name
+            type: slug
+        type: text
+tabs:
+    fields:
+        div_logo:
+            label: Logo
+            mode: image
+            span: full
+            type: mediafinder
+            tab: 'Division Information'
+        div_info:
+            label: 'Division Information'
+            size: ''
+            span: full
+            type: textarea
+            tab: 'Division Information'

@@ -1,0 +1,10 @@
+name: Postlist
+form: $/skippy/fms/models/postlist/fields.yaml
+modelClass: Skippy\Fms\Models\Postlist
+defaultRedirect: skippy/fms/postlist
+create:
+    redirect: 'skippy/fms/postlist/update/:id'
+    redirectClose: skippy/fms/postlist
+update:
+    redirect: skippy/fms/postlist
+    redirectClose: skippy/fms/postlist

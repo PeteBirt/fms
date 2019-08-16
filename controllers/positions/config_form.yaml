@@ -1,0 +1,10 @@
+name: Positions
+form: $/skippy/fms/models/posts/fields.yaml
+modelClass: Skippy\Fms\Models\Posts
+defaultRedirect: skippy/fms/positions
+create:
+    redirect: 'skippy/fms/positions/update/:id'
+    redirectClose: skippy/fms/positions
+update:
+    redirect: skippy/fms/positions
+    redirectClose: skippy/fms/positions

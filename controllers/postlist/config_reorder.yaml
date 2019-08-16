@@ -1,0 +1,4 @@
+title: Postlist
+modelClass: Skippy\Fms\Models\Postlist
+toolbar:
+    buttons: reorder_toolbar

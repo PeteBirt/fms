@@ -1,0 +1,9 @@
+columns:
+    post_name:
+        label: 'Position Title'
+        type: text
+        searchable: true
+        sortable: true
+    order:
+        label: 'Order Number'
+        type: number

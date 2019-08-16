@@ -195,3 +195,36 @@
 1.0.66:
     - 'Updated table skippy_fms_fleets'
     - builder_table_update_skippy_fms_fleets_15.php
+1.0.67:
+    - 'Updated table skippy_fms_divisions'
+    - builder_table_update_skippy_fms_divisions_4.php
+1.0.68:
+    - 'Updated table skippy_fms_fleets'
+    - builder_table_update_skippy_fms_fleets_16.php
+1.0.69:
+    - 'Created table skippy_fms_posts'
+    - builder_table_create_skippy_fms_posts.php
+1.0.70:
+    - 'Updated table skippy_fms_department'
+    - builder_table_update_skippy_fms_department_3.php
+1.0.71:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_6.php
+1.0.72:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_7.php
+1.0.73:
+    - 'Created table skippy_fms_dept_posts'
+    - builder_table_create_skippy_fms_dept_posts.php
+1.0.74:
+    - 'Updated table skippy_fms_dept_posts'
+    - builder_table_update_skippy_fms_dept_posts.php
+1.0.75:
+    - 'Updated table skippy_fms_dept_posts'
+    - builder_table_update_skippy_fms_dept_posts_2.php
+1.0.76:
+    - 'Drop table skippy_fms_dept_posts'
+    - builder_table_delete_skippy_fms_dept_posts.php
+1.0.77:
+    - 'Updated table skippy_fms_posts'
+    - builder_table_update_skippy_fms_posts.php
