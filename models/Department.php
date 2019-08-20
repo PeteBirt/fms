@@ -36,6 +36,17 @@ class Department extends Model
       ]
     ];
 
+    public $hasMany =[
+
+      'posts' =>[
+
+        'Skippy\Fms\Models\Posts',
+
+        'table' => 'skippy_fms_posts',
+
+      ]
+    ];
+
     /**
      * @var array Validation rules
      */
