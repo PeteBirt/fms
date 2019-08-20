@@ -6,9 +6,3 @@ fields:
         descriptionFrom: description
         list: $/skippy/fms/models/posts/columns.yaml
         type: recordfinder
-    sim:
-        label: Sim
-        span: auto
-        nameFrom: sim_name
-        descriptionFrom: description
-        type: relation

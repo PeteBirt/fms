@@ -228,3 +228,12 @@
 1.0.77:
     - 'Updated table skippy_fms_posts'
     - builder_table_update_skippy_fms_posts.php
+1.0.78:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_8.php
+1.0.79:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_9.php
+1.0.80:
+    - 'Updated table skippy_fms_sim_dept'
+    - builder_table_update_skippy_fms_sim_dept_10.php

@@ -20,7 +20,10 @@ class Postlist extends Model
      * @var string The database table used by the model.
      */
     public $table = 'skippy_fms_sim_dept';
-
+    /**
+     * @var array Guarded fields
+     */
+    protected $guarded = [];
     /**
      * @var array Validation rules
      */
@@ -30,23 +33,11 @@ class Postlist extends Model
            'table' => 'skippy_fms_posts',
            'order' => 'post_name'
          ],
-         'genre' =>[
-
-           'Skippy\Fms\Models\Genre',
-
-           'table' => 'skippy_fms_genre',
-
-           'order' => 'genre_name'
-
-         ],
          'sim' =>[
 
            'Skippy\Fms\Models\Sim',
-
            'table' => 'skippy_fms_sim',
-
            'order' => 'sim_name'
-
          ]
      ];
      public $belongsToMany =[

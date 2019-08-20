@@ -9,7 +9,3 @@ fields:
         nameFrom: genre_name
         descriptionFrom: description
         type: relation
-    posts:
-        label: Positions
-        type: partial
-        path: field_post

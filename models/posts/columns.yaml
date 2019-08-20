@@ -7,3 +7,6 @@ columns:
     order:
         label: 'Order Number'
         type: number
+    id:
+        label: ID
+        type: text

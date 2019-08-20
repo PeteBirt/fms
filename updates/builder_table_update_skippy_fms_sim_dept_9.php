@@ -3,13 +3,13 @@
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableUpdateSkippyFmsSimDept6 extends Migration
+class BuilderTableUpdateSkippyFmsSimDept9 extends Migration
 {
     public function up()
     {
         Schema::table('skippy_fms_sim_dept', function($table)
         {
-            $table->integer('post_id')->nullable();
+            $table->increments('id');
         });
     }
     
@@ -17,7 +17,7 @@ class BuilderTableUpdateSkippyFmsSimDept6 extends Migration
     {
         Schema::table('skippy_fms_sim_dept', function($table)
         {
-            $table->dropColumn('post_id');
+            $table->dropColumn('id');
         });
     }
 }
