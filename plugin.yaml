@@ -34,10 +34,6 @@ navigation:
                 label: Departments
                 url: skippy/fms/departments
                 icon: icon-sitemap
-            posts:
-                label: Positions
-                url: skippy/fms/positions
-                icon: icon-sitemap
 permissions:
     'Sim Command':
         tab: 'skippy.fms::lang.plugin.name'

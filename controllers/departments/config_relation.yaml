@@ -5,3 +5,4 @@ positions:
         list: $/skippy/fms/models/posts/columns.yaml
     view:
         list: $/skippy/fms/models/posts/columns.yaml
+        toolbarButtons: create|delete

@@ -2,7 +2,12 @@ departments:
     label: Department
     tabs: Manifest
     manage:
-        form: $/skippy/fms/models/department/fields.yaml
+        form:
+            fields:
+                dept_name:
+                    label: 'Department Name'
+                    span: auto
+                    type: text
         list: $/skippy/fms/models/department/columns.yaml
         showSearch: true
         filter:

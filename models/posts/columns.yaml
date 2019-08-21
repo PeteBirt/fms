@@ -7,9 +7,3 @@ columns:
     order:
         label: 'Order Number'
         type: number
-    department_id:
-        label: Department
-        type: text
-        sortable: true
-        select: dept_name
-        relation: department

@@ -3,12 +3,6 @@ fields:
         label: Position
         span: auto
         type: text
-    department:
-        label: Department
-        span: auto
-        nameFrom: dept_name
-        descriptionFrom: description
-        type: relation
     order:
         label: Order
         span: auto
