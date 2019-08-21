@@ -24,7 +24,7 @@ class Department extends Model
       ]
     ];
     public $hasMany =[
-      'posts' =>[
+      'positions' =>[
         'Skippy\Fms\Models\Posts',
         'table' => 'skippy_fms_posts',
       ]

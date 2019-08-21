@@ -14,6 +14,10 @@ navigation:
                 label: Operations
                 url: skippy/fms/operations
                 icon: icon-sitemap
+            genre:
+                label: Genre
+                url: skippy/fms/genre
+                icon: icon-sitemap
             div:
                 label: Divisions
                 url: skippy/fms/divisions
@@ -26,9 +30,9 @@ navigation:
                 label: Simulations
                 url: skippy/fms/sims
                 icon: icon-sitemap
-            genre:
-                label: Genre
-                url: skippy/fms/genre
+            dept_menu:
+                label: Departments
+                url: skippy/fms/departments
                 icon: icon-sitemap
             posts:
                 label: Positions

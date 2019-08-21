@@ -1,0 +1,7 @@
+positions:
+    label: Positions
+    manage:
+        form: $/skippy/fms/models/posts/fields.yaml
+        list: $/skippy/fms/models/posts/columns.yaml
+    view:
+        list: $/skippy/fms/models/posts/columns.yaml

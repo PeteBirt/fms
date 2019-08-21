@@ -4,3 +4,9 @@ columns:
         type: text
         searchable: true
         sortable: true
+    genre_id:
+        label: Division
+        type: text
+        sortable: true
+        select: genre_name
+        relation: genre

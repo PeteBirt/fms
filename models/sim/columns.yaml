@@ -16,9 +16,3 @@ columns:
         type: text
         select: fleet_name
         relation: fleet
-    sim_banner:
-        label: Banner
-        type: text
-    department_id:
-        label: Department
-        type: text

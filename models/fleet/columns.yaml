@@ -8,7 +8,9 @@ columns:
         label: 'Fleet Type'
         type: text
         sortable: true
-    division_name:
+    division_id:
         label: Division
         type: text
         sortable: true
+        select: div_name
+        relation: division
